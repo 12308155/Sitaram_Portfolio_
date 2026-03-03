@@ -76,7 +76,34 @@ body.light-theme .home-section {
     0%, 100% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
 }
+.animated-element {
+  animation: slide-in 1s ease-in-out;
+  transform-origin: center center;
+}
 
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+  .animated-element {
+    animation-duration: 0.5s;
+    transform: scale(0.8);
+  }
+}
+
+/* For screens between 600px and 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+  .animated-element {
+    animation-duration: 0.8s;
+    transform: scale(0.9);
+  }
+}
+
+/* For screens larger than 900px */
+@media (min-width: 900px) {
+  .animated-element {
+    animation-duration: 1s;
+    transform: scale(1);
+  }
+}
 body.light-theme .about-section {
     background: linear-gradient(180deg, #f0f9ff 0%, #e0f2fe 100%);
 }
@@ -2101,4 +2128,5 @@ html {
         0 0 20px rgba(99, 102, 241, 0.4),
         0 0 40px rgba(139, 92, 246, 0.2);
 }
+
 
