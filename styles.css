@@ -17,7 +17,30 @@
     --gradient-2: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
     --gradient-3: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
 }
+.animated-element {
+  animation: slide-in 1s ease-in-out;
+}
 
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+  .animated-element {
+    animation-duration: 0.5s;
+  }
+}
+
+/* For screens between 600px and 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+  .animated-element {
+    animation-duration: 0.8s;
+  }
+}
+
+/* For screens larger than 900px */
+@media (min-width: 900px) {
+  .animated-element {
+    animation-duration: 1s;
+  }
+}
 /* Light Theme */
 body.light-theme {
     --primary-color: #6366f1;
@@ -2078,3 +2101,4 @@ html {
         0 0 20px rgba(99, 102, 241, 0.4),
         0 0 40px rgba(139, 92, 246, 0.2);
 }
+
