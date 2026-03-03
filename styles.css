@@ -71,7 +71,13 @@ body.light-theme .home-section {
     background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 50%, #bfdbfe 100%);
     animation: gradientShift 15s ease infinite;
 }
-
+.logo-box {
+    background: linear-gradient(135deg, #6c63ff, #9f7aea);
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-right: 8px;
+}
 @keyframes gradientShift {
     0%, 100% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
@@ -2128,5 +2134,6 @@ html {
         0 0 20px rgba(99, 102, 241, 0.4),
         0 0 40px rgba(139, 92, 246, 0.2);
 }
+
 
 
