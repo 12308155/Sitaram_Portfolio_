@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitaram Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="aura-container">
+        <div class="aura-blob"></div>
+        <div class="aura-blob"></div>
+        <div class="aura-blob"></div>
+        <div class="aura-blob"></div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="scroll-progress-container">
+            <div class="scroll-progress-bar" id="scrollProgress"></div>
+        </div>
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-chart-line brand-icon"></i>
+                <span class="logo-text">SM</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#about" class="nav-link dropdown-toggle">About Me <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#about" class="dropdown-item">About Me</a></li>
+                        <li><a href="#skills" class="dropdown-item">Skills</a></li>
+                        <li><a href="#education" class="dropdown-item">Education</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#projects" class="nav-link dropdown-toggle">Projects <i
+                            class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#projects" class="dropdown-item">All Showcase</a></li>
+                        <li><a href="#projects" class="dropdown-item">Data Science</a></li>
+                        <li><a href="#projects" class="dropdown-item">Software Engineering</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#internships" class="nav-link dropdown-toggle">Internships <i
+                            class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#internships" class="dropdown-item">All Internships</a></li>
+                        <li><a href="#certifications" class="dropdown-item">Certifications</a></li>
+                        <li><a href="#resume" class="dropdown-item">Resume</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <span class="theme-icon sun-icon">☀️</span>
+                        <span class="theme-icon moon-icon">🌙</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="particles" id="particles"></div>
+        <div class="home-content">
+            <div class="greeting" data-aos="fade-down">
+                <h1 class="greeting-text">Hello and welcome 👋</h1>
+                <div class="name-container">
+                    <div class="avatar-circle">
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <h1 class="name-text">Sitaram Manepalli</h1>
+                </div>
+                <p class="tagline">Engineering scalable software and intelligent data solutions for real-world impact.📊
+                </p>
+            </div>
+            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <p>Scroll Down</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title reveal-in-up" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="image-wrapper magnetic-card">
+                        <div class="image-placeholder floating">
+                            <img src="picabout.jpg" alt="Sitaram Manepalli" />
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3 class="about-hook">Bridging the gap between complex data ecosystems and high-performance
+                        software architecture.</h3>
+
+                    <p>I'm <strong>Naga Sai Sitaram Manepalli</strong>, an engineer dedicated to fusing the predictive
+                        power of Data Science with the robustness of Software Engineering. By leveraging Python, Java,
+                        and Machine Learning, I architected high-impact solutions like a <strong>CVD Risk
+                            Dashboard</strong> for healthcare precision and an <strong>AI-powered Image Recognition
+                            System</strong>.</p>
+
+                    <p>Driven by a passion for scalable systems, I am consistently refining my algorithmic depth on
+                        <strong>LeetCode</strong> and contributing to the <strong>Open Source</strong> community. I
+                        specialize in transforming raw information into strategic technical assets that drive real-world
+                        results.</p>
+
+                    
+
+                    <div class="about-chips" data-aos="fade-up" data-aos-delay="300">
+                        <span class="chip">Python</span>
+                        <span class="chip">Java</span>
+                        <span class="chip">C++</span>
+                        <span class="chip">ML / AI</span>
+                        <span class="chip">Power BI</span>
+                        <span class="chip">SQL</span>
+                        <span class="chip">Pandas</span>
+                    </div>
+
+                    <div class="cta-buttons" style="justify-content: flex-start; margin-top: 30px;">
+                        <a href="#projects" class="btn btn-primary" style="padding: 12px 25px; font-size: 0.9rem;">View
+                            My Work</a>
+                        <a href="#resume" class="btn btn-secondary"
+                            style="padding: 12px 25px; font-size: 0.9rem;">Review Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title reveal-in-up" data-aos="fade-up">Skills</h2>
+
+            <div class="skills-tables-container">
+                <!-- Data Science Skills -->
+                <div class="skills-table" data-aos="flip-left" data-aos-delay="100">
+                    <div class="table-header-glow"></div>
+                    <h3 class="table-title"><i class="fas fa-chart-line"></i> Data Science & Analytics</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Pandas, NumPy</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-search"></i>
+                            <span>EDA & Stats</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-pie"></i>
+                            <span>Power BI, Tableau</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Programming & DSA -->
+                <div class="skills-table" data-aos="flip-left" data-aos-delay="200">
+                    <div class="table-header-glow"></div>
+                    <h3 class="table-title"><i class="fas fa-code"></i> Programming & DSA</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>DSA</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cubes"></i>
+                            <span>OOP</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skills-table" data-aos="flip-left" data-aos-delay="300">
+                    <div class="table-header-glow"></div>
+                    <h3 class="table-title"><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-file-code"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-book"></i>
+                            <span>Jupyter</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-table"></i>
+                            <span>Excel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Summary Cards -->
+            <div class="skills-summary" data-aos="fade-up">
+                <div class="summary-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="summary-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h4>Technologies</h4>
+                    <p class="summary-number">10+</p>
+                </div>
+                <div class="summary-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="summary-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h4>Internships</h4>
+                    <p class="summary-number">2+</p>
+                </div>
+                <div class="summary-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="summary-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h4>Projects</h4>
+                    <p class="summary-number">8+</p>
+                </div>
+                <div class="summary-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="summary-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h4>Certifications</h4>
+                    <p class="summary-number">6+</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title reveal-in-up" data-aos="fade-up">Education</h2>
+            <p class="education-subtitle" data-aos="fade-up" data-aos-delay="100">The academic milestones that built my
+                technical foundation</p>
+
+            <!-- Tab Switcher -->
+            <div class="edu-tabs" data-aos="fade-up" data-aos-delay="150">
+                <button class="edu-tab active" data-target="edu-btech">
+                    <div class="edu-tab-icon edu-icon-primary"><i class="fas fa-university"></i></div>
+                    <span class="edu-tab-label">B.Tech</span>
+                    <span class="edu-tab-sub">2023 – 2027</span>
+                </button>
+                <div class="edu-tab-line"></div>
+                <button class="edu-tab" data-target="edu-inter">
+                    <div class="edu-tab-icon edu-icon-secondary"><i class="fas fa-school"></i></div>
+                    <span class="edu-tab-label">Intermediate</span>
+                    <span class="edu-tab-sub">2021 – 2023</span>
+                </button>
+                <div class="edu-tab-line"></div>
+                <button class="edu-tab" data-target="edu-school">
+                    <div class="edu-tab-icon edu-icon-accent"><i class="fas fa-graduation-cap"></i></div>
+                    <span class="edu-tab-label">High School</span>
+                    <span class="edu-tab-sub">2020 – 2021</span>
+                </button>
+            </div>
+
+            <!-- Panels -->
+            <div class="edu-panel-wrap">
+
+                <!-- B.Tech Panel -->
+                <div class="edu-panel active" id="edu-btech">
+                    <div class="edu-panel-accent" style="--ep-color: var(--primary-color);"></div>
+                    <div class="edu-panel-body">
+                        <div class="edu-panel-left">
+                            <div class="edu-panel-big-icon edu-icon-primary"><i class="fas fa-university"></i></div>
+                            <div class="edu-panel-meta">
+                                <div class="edu-stat-box"><span class="edu-stat-val">4</span><span
+                                        class="edu-stat-lbl">Years</span></div>
+                                <div class="edu-stat-box"><span class="edu-stat-val">2027</span><span
+                                        class="edu-stat-lbl">Expected</span></div>
+                                <div class="edu-stat-box"><span class="edu-stat-val">CSE</span><span
+                                        class="edu-stat-lbl">Branch</span></div>
+                            </div>
+                        </div>
+                        <div class="edu-panel-right">
+                            <span class="edu-panel-type">Undergraduate Degree</span>
+                            <h3 class="edu-panel-degree">Bachelor of Technology <span>(B.Tech)</span></h3>
+                            <p class="edu-panel-field"><i class="fas fa-microchip"></i> Computer Science &amp;
+                                Engineering</p>
+                            <p class="edu-panel-institute"><i class="fas fa-map-marker-alt"></i> Lovely Professional
+                                University, Punjab</p>
+                            <p class="edu-panel-desc">Specializing in Software Architecture and Data Intelligence, with
+                                a focus on building scalable, real-world applications. Currently bridging the gap
+                                between theoretical computer science and enterprise-grade software development through
+                                intensive project-based learning and algorithmic mastery.</p>
+
+                            <div class="edu-achievements" style="margin-top: 15px;">
+                                <div
+                                    style="display: flex; align-items: center; gap: 8px; font-size: 0.85rem; color: var(--primary-color); font-weight: 600;">
+                                    <i class="fas fa-star"></i> Key Highlight: Currently maintaining a strong academic
+                                    standing with a focus on Advanced Data Structures and AI.
+                                </div>
+                            </div>
+
+                            <div class="edu-coursework" style="margin-top: 15px; margin-bottom: 20px;">
+                                <strong style="font-size: 0.9rem; color: var(--text-color); opacity: 0.8;"><i
+                                        class="fas fa-book-open"></i> Core Specializations:</strong>
+                                <div class="project-tags" style="margin-top: 10px; gap: 8px;">
+                                    <span class="tag"
+                                        style="font-size: 0.75rem; padding: 4px 10px; background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.2);"><i
+                                            class="fas fa-sitemap" style="margin-right: 5px;"></i> Data
+                                        Structures</span>
+                                    <span class="tag"
+                                        style="font-size: 0.75rem; padding: 4px 10px; background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.2);"><i
+                                            class="fas fa-terminal" style="margin-right: 5px;"></i> Algorithms</span>
+                                    <span class="tag"
+                                        style="font-size: 0.75rem; padding: 4px 10px; background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.2);"><i
+                                            class="fas fa-database" style="margin-right: 5px;"></i> Database
+                                        Systems</span>
+                                    <span class="tag"
+                                        style="font-size: 0.75rem; padding: 4px 10px; background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.2);"><i
+                                            class="fas fa-brain" style="margin-right: 5px;"></i> Machine Learning</span>
+                                    <span class="tag"
+                                        style="font-size: 0.75rem; padding: 4px 10px; background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.2);"><i
+                                            class="fas fa-cog" style="margin-right: 5px;"></i> Operating Systems</span>
+                                </div>
+                            </div>
+
+                            <div class="edu-panel-progress">
+                                <div class="edu-progress-info"><span>Degree Completion Status (Sem 6/8)</span><span
+                                        class="edu-progress-pct">75%</span></div>
+                                <div class="edu-progress-bar">
+                                    <div class="edu-progress-fill"
+                                        style="width:75%; --bar-color: var(--primary-color);"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Intermediate Panel -->
+                <div class="edu-panel" id="edu-inter">
+                    <div class="edu-panel-accent" style="--ep-color: var(--secondary-color);"></div>
+                    <div class="edu-panel-body">
+                        <div class="edu-panel-left">
+                            <div class="edu-panel-big-icon edu-icon-secondary"><i class="fas fa-school"></i></div>
+                            <div class="edu-panel-meta">
+                                <div class="edu-stat-box"><span class="edu-stat-val">2</span><span
+                                        class="edu-stat-lbl">Years</span></div>
+                                <div class="edu-stat-box"><span class="edu-stat-val">MPC</span><span
+                                        class="edu-stat-lbl">Stream</span></div>
+                                <div class="edu-stat-box"><span class="edu-stat-val">2023</span><span
+                                        class="edu-stat-lbl">Passed</span></div>
+                            </div>
+                        </div>
+                        <div class="edu-panel-right">
+                            <span class="edu-panel-type" style="color:var(--secondary-color);">Senior Secondary</span>
+                            <h3 class="edu-panel-degree">Intermediate <span>(MPC)</span></h3>
+                            <p class="edu-panel-field"><i class="fas fa-flask"></i> Mathematics, Physics &amp; Chemistry
+                            </p>
+                            <p class="edu-panel-institute"><i class="fas fa-map-marker-alt"></i> Sasi Junior
+                                College, Andhra Pradesh</p>
+                            <p class="edu-panel-desc">Developed the foundational mathematical logic and advanced
+                                analytical problem-solving skills that now drive the architecture of my Machine Learning
+                                models and complex algorithmic solutions.</p>
+
+                            <div class="edu-achievements" style="margin-top: 15px;">
+                                <div
+                                    style="display: flex; align-items: center; gap: 8px; font-size: 0.85rem; color: var(--secondary-color); font-weight: 600;">
+                                    <i class="fas fa-trophy"></i> Key Highlight: Graduated with top honors in
+                                    Mathematics and Physics, laying the groundwork for complex engineering.
+                                </div>
+                            </div>
+
+                            <div class="edu-coursework" style="margin-top: 15px; margin-bottom: 20px;">
+                                <strong style="font-size: 0.9rem; color: var(--text-color); opacity: 0.8;"><i
+                                        class="fas fa-star"></i> Key Strengths:</strong>
+                                <div class="project-tags" style="margin-top: 10px; gap: 8px;">
+                                    <span class="tag"
+                                        style="font-size: 0.75rem; padding: 4px 10px; background: rgba(139, 92, 246, 0.1); border: 1px solid rgba(139, 92, 246, 0.2);">Advanced
+                                        Mathematics</span>
+                                    <span class="tag"
+                                        style="font-size: 0.75rem; padding: 4px 10px; background: rgba(139, 92, 246, 0.1); border: 1px solid rgba(139, 92, 246, 0.2);">Physics
+                                        Problems</span>
+                                    <span class="tag"
+                                        style="font-size: 0.75rem; padding: 4px 10px; background: rgba(139, 92, 246, 0.1); border: 1px solid rgba(139, 92, 246, 0.2);">Analytical
+                                        Reasoning</span>
+                                </div>
+                            </div>
+
+                            <div class="edu-panel-progress">
+                                <div class="edu-progress-info"><span>Completed</span><span
+                                        class="edu-progress-pct">100%</span></div>
+                                <div class="edu-progress-bar">
+                                    <div class="edu-progress-fill"
+                                        style="width:100%; --bar-color: var(--secondary-color);"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- High School Panel -->
+                <div class="edu-panel" id="edu-school">
+                    <div class="edu-panel-accent" style="--ep-color: var(--accent-color);"></div>
+                    <div class="edu-panel-body">
+                        <div class="edu-panel-left">
+                            <div class="edu-panel-big-icon edu-icon-accent"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="edu-panel-meta">
+                                <div class="edu-stat-box"><span class="edu-stat-val">9.1/10</span><span
+                                        class="edu-stat-lbl">CGPA</span></div>
+                                <div class="edu-stat-box"><span class="edu-stat-val">SSC</span><span
+                                        class="edu-stat-lbl">Board</span></div>
+                                <div class="edu-stat-box"><span class="edu-stat-val">2021</span><span
+                                        class="edu-stat-lbl">Passed</span></div>
+                            </div>
+                        </div>
+                        <div class="edu-panel-right">
+                            <span class="edu-panel-type" style="color:var(--accent-color);">Secondary Schooling</span>
+                            <h3 class="edu-panel-degree">High School <span>(10th Standard)</span></h3>
+                            <p class="edu-panel-field"><i class="fas fa-book-reader"></i> General Sciences &amp;
+                                Applications</p>
+                            <p class="edu-panel-institute"><i class="fas fa-map-marker-alt"></i> Pupil Tree EM High
+                                School, Andhra Pradesh</p>
+                            <p class="edu-panel-desc">Achieved a perfect CGPA during foundational schooling, with early
+                                recognition for excellence in Science and Mathematics, fostering a deep interest in
+                                technology and logical reasoning.</p>
+
+                            <div class="edu-achievements" style="margin-top: 15px; margin-bottom: 20px;">
+                                <div
+                                    style="display: flex; align-items: center; gap: 8px; font-size: 0.85rem; color: var(--accent-color); font-weight: 600;">
+                                    <i class="fas fa-medal"></i> Key Highlight: Achieved perfect 10/10 CGPA performance
+                                    with early distinction in Science.
+                                </div>
+                            </div>
+
+                            <div class="edu-coursework" style="margin-top: 15px; margin-bottom: 20px;">
+                                <strong style="font-size: 0.9rem; color: var(--text-color); opacity: 0.8;"><i
+                                        class="fas fa-trophy"></i> Foundations:</strong>
+                                <div class="project-tags" style="margin-top: 10px; gap: 8px;">
+                                    <span class="tag"
+                                        style="font-size: 0.75rem; padding: 4px 10px; background: rgba(236, 72, 153, 0.1); border: 1px solid rgba(236, 72, 153, 0.2);">Mathematics</span>
+                                    <span class="tag"
+                                        style="font-size: 0.75rem; padding: 4px 10px; background: rgba(236, 72, 153, 0.1); border: 1px solid rgba(236, 72, 153, 0.2);">General
+                                        Science</span>
+                                    <span class="tag"
+                                        style="font-size: 0.75rem; padding: 4px 10px; background: rgba(236, 72, 153, 0.1); border: 1px solid rgba(236, 72, 153, 0.2);">Logical
+                                        Reasoning</span>
+                                </div>
+                            </div>
+
+                            <div class="edu-panel-progress">
+                                <div class="edu-progress-info"><span>Completed</span><span
+                                        class="edu-progress-pct">100%</span></div>
+                                <div class="edu-progress-bar">
+                                    <div class="edu-progress-fill"
+                                        style="width:100%; --bar-color: var(--accent-color);"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title reveal-in-up" data-aos="fade-up">My Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card" data-category="web" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-preview">
+                            <div class="project-preview-mockup">
+                                <div class="project-preview-top">
+                                    <span class="project-preview-dot"></span>
+                                    <span class="project-preview-dot"></span>
+                                    <span class="project-preview-dot"></span>
+                                </div>
+                                <div class="project-preview-body">
+                                    <div class="project-preview-icon"><i class="fas fa-users"></i></div>
+                                    <p class="project-preview-title">Churn Dash</p>
+                                    <p class="project-preview-label">Analytics</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://www.linkedin.com/posts/sitaram-manepalli_powerbi-dataanalytics-customerchurn-activity-7406030421928349696-Fj3u?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEd1ZqcBTh8gXTitD6qoiEYpCG04nj5-giI"
+                                    class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href=" https://github.com/12308155/Customer-Churn-Prediction_Dashboard"
+                                    class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Customer Churn Analytics Dashboard 📊</h3>
+                        <p>Built churn dashboard analyzing 243K+ users with 18% churn rate and ₹27M revenue at risk.</p>
+                        <div class="project-tags">
+                            <span class="tag">Data Visualization</span>
+                            <span class="tag">PowerBI</span>
+                            <span class="tag">Data Modeling</span>
+                            <span class="tag">DAX</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-preview">
+                            <div class="project-preview-mockup">
+                                <div class="project-preview-top">
+                                    <span class="project-preview-dot"></span>
+                                    <span class="project-preview-dot"></span>
+                                    <span class="project-preview-dot"></span>
+                                </div>
+                                <div class="project-preview-body">
+                                    <div class="project-preview-icon"><i class="fas fa-database"></i></div>
+                                    <p class="project-preview-title">Predictive AI</p>
+                                    <p class="project-preview-label">Machine Learning</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://www.linkedin.com/posts/sitaram-manepalli_customer-churn-prediction-activity-7406018272707407872-c0ji?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEd1ZqcBTh8gXTitD6qoiEYpCG04nj5-giI"
+                                    class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/12308155/Customer-Churn-Prediction_Analytics"
+                                    class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Predictive Customer Churn Analytics📈</h3>
+                        <p> Transforming customer data into predictive insights to reduce churn and protect revenue.</p>
+                        <div class="project-tags">
+                            <span class="tag">Scikit-learn</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Classification Modeling</span>
+                            <span class="tag">EDA</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-preview">
+                            <div class="project-preview-mockup">
+                                <div class="project-preview-top">
+                                    <span class="project-preview-dot"></span>
+                                    <span class="project-preview-dot"></span>
+                                    <span class="project-preview-dot"></span>
+                                </div>
+                                <div class="project-preview-body">
+                                    <div class="project-preview-icon"><i class="fa-solid fa-folder-tree"></i></div>
+                                    <p class="project-preview-title">Doc Manager</p>
+                                    <p class="project-preview-label">Version Control</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://12308155.github.io/Doc-Manager/" class="project-link"><i
+                                        class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/12308155/Doc-Manager" class="project-link"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Doc-Manager | Git & Version Control 📁</h3>
+                        <p>Mastered advanced Git branching and manual merge conflict resolution through a structured
+                            document management interface.</p>
+                        <div class="project-tags">
+                            <span class="tag">Git</span>
+                            <span class="tag">GitHub</span>
+                            <span class="tag">GitBash</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-preview">
+                            <div class="project-preview-mockup">
+                                <div class="project-preview-top">
+                                    <span class="project-preview-dot"></span>
+                                    <span class="project-preview-dot"></span>
+                                    <span class="project-preview-dot"></span>
+                                </div>
+                                <div class="project-preview-body">
+                                    <div class="project-preview-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                                    <p class="project-preview-title">CVD Insights</p>
+                                    <p class="project-preview-label">Healthcare</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://www.linkedin.com/posts/sitaram-manepalli-207602295_powerbi-datavisualization-datascience-activity-7391032633348022272-eJur?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEd1ZqcBTh8gXTitD6qoiEYpCG04nj5-giI"
+                                    class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/12308155/CVD_Dashboard" class="project-link"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>CVD Risk Insights Dashboard 🩺</h3>
+                        <p>Interactive dashboard showing key CVD risk factors ❤️, health indicators 🧠, and predictive
+                            trends 📈 for quick insights.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python(Numpy,Pandas,MatplotLib,Seaborn)</span>
+                            <span class="tag">PowerBI</span>
+                            <span class="tag">Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ai" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-preview">
+                            <div class="project-preview-mockup">
+                                <div class="project-preview-top">
+                                    <span class="project-preview-dot"></span>
+                                    <span class="project-preview-dot"></span>
+                                    <span class="project-preview-dot"></span>
+                                </div>
+                                <div class="project-preview-body">
+                                    <div class="project-preview-icon"><i class="fa-solid fa-train-subway"></i></div>
+                                    <p class="project-preview-title">Railway TMS</p>
+                                    <p class="project-preview-label">Data Structures</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/12308155/Train-Management-System" class="project-link"><i
+                                        class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/12308155/Train-Management-System" class="project-link"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Train Management System 🚂</h3>
+                        <p>A high-performance C++ backend utilizing advanced data structures to optimize railway routing
+                            and search efficiency by 40%</p>
+                        <div class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">DSA</span>
+                            <span class="tag">Streamlit</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="mobile" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-preview">
+                            <div class="project-preview-mockup">
+                                <div class="project-preview-top">
+                                    <span class="project-preview-dot"></span>
+                                    <span class="project-preview-dot"></span>
+                                    <span class="project-preview-dot"></span>
+                                </div>
+                                <div class="project-preview-body">
+                                    <div class="project-preview-icon"><i class="fa-solid fa-chart-area"></i></div>
+                                    <p class="project-preview-title">EDA Analysis</p>
+                                    <p class="project-preview-label">Data Science</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://www.linkedin.com/posts/sitaram-manepalli_cvdedaanalysis-activity-7391018214727720960-akxz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEd1ZqcBTh8gXTitD6qoiEYpCG04nj5-giI"
+                                    class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/12308155/CVD_EDA_Analysis" class="project-link"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>CVD Risk Factor Analysis 📈</h3>
+                        <p>Explored cardiovascular health data to detect key patterns, correlations, and risk factors
+                            using visual and statistical analysis.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python Libraries</span>
+                            <span class="tag">Z-Test,T-Test</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-preview">
+                            <div class="project-preview-mockup">
+                                <div class="project-preview-top">
+                                    <span class="project-preview-dot"></span>
+                                    <span class="project-preview-dot"></span>
+                                    <span class="project-preview-dot"></span>
+                                </div>
+                                <div class="project-preview-body">
+                                    <div class="project-preview-icon"><i class="fas fa-chart-line"></i></div>
+                                    <p class="project-preview-title">Sales Dash</p>
+                                    <p class="project-preview-label">Data Analysis</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://www.linkedin.com/posts/sitaram-manepalli-207602295_exceldashboard-dataanalytics-datavisualization-activity-7316749613791682560-FXGh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEd1ZqcBTh8gXTitD6qoiEYpCG04nj5-giI"
+                                    class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/12308155/sales-dashboard" class="project-link"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sales Dashboard - Motorcycle Company</h3>
+                        <p>Bringing clarity to complexity through interactive dashboards and meaningful data
+                            visualization.</p>
+                        <div class="project-tags">
+                            <span class="tag">Microsoft Excel</span>
+                            <span class="tag">Data Visualization</span>
+                            <span class="tag">Power Query</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ai" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-preview">
+                            <div class="project-preview-mockup">
+                                <div class="project-preview-top">
+                                    <span class="project-preview-dot"></span>
+                                    <span class="project-preview-dot"></span>
+                                    <span class="project-preview-dot"></span>
+                                </div>
+                                <div class="project-preview-body">
+                                    <div class="project-preview-icon"><i class="fas fa-robot"></i></div>
+                                    <p class="project-preview-title">Tutorial Bot</p>
+                                    <p class="project-preview-label">AI Chatbot</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://makeuptutorialbot.netlify.app/" class="project-link"><i
+                                        class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/12308155/Makeup-Tutorial-Chatbot" class="project-link"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Makeup Tutorial Bot</h3>
+                        <p>A creative blend of technology and beauty — offering tailored tutorials, product suggestions,
+                            and pro tips for every style.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Java Script</span>
+                            <span class="tag">AI modelIntegration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internships Section -->
+    <section id="internships" class="experience-section">
+        <div class="container">
+            <div class="experience-header-container"
+                style="padding-top: 50px; text-align: center; margin-bottom: 60px;">
+                <h2 class="section-title reveal-in-up" data-aos="fade-up">Professional Journey</h2>
+                <p style="color: var(--gray-text); font-size: 1.1rem; max-width: 600px; margin: 15px auto 0;" data-aos="fade-up" data-aos-delay="100">Tracing my
+                    path through impactful roles and data-driven projects.</p>
+            </div>
+
+            <div class="exp-tabs-container">
+                <!-- Tab Switcher -->
+                <div class="edu-tabs" data-aos="fade-up" data-aos-delay="150" style="margin-bottom: 50px;">
+                    <button class="edu-tab active" data-target="exp-skilldzire">
+                        <div class="edu-tab-icon edu-icon-primary"><i class="fas fa-brain"></i></div>
+                        <span class="edu-tab-label">Skill Dzire</span>
+                        <span class="edu-tab-sub">May '25 – Jun '25</span>
+                    </button>
+                    <div class="edu-tab-line"></div>
+                    <button class="edu-tab" data-target="exp-infosys">
+                        <div class="edu-tab-icon edu-icon-secondary"><i class="fas fa-chart-pie"></i></div>
+                        <span class="edu-tab-label">Infosys</span>
+                        <span class="edu-tab-sub">2026</span>
+                    </button>
+                </div>
+
+                <!-- Panels -->
+                <div class="edu-panel-wrap" data-aos="fade-up" data-aos-delay="200">
+                    <!-- Data Science Panel -->
+                    <div class="edu-panel active" id="exp-skilldzire">
+                        <div class="edu-panel-accent" style="--ep-color: var(--primary-color);"></div>
+                        <div class="edu-panel-body">
+                            <div class="edu-panel-left">
+                                <div class="edu-panel-big-icon edu-icon-primary"><i class="fas fa-brain"></i></div>
+                                <div class="edu-panel-meta">
+                                    <div class="edu-stat-box"><span class="edu-stat-val">2</span><span
+                                            class="edu-stat-lbl">Months</span></div>
+                                    <div class="edu-stat-box"><span class="edu-stat-val">2025</span><span
+                                            class="edu-stat-lbl">Completed</span></div>
+                                    <div class="edu-stat-box"><span class="edu-stat-val">DS</span><span
+                                            class="edu-stat-lbl">Role</span></div>
+                                </div>
+                            </div>
+                            <div class="edu-panel-right">
+                                <span class="edu-panel-type">Data Science Internship</span>
+                                <h3 class="edu-panel-degree">Data Science Intern</h3>
+                                <p class="edu-panel-field"><i class="fas fa-building"></i> Skill Dezire Technologies Pvt
+                                    Ltd.</p>
+                                <p class="edu-panel-institute"><i class="fas fa-calendar-alt"></i> May 2025 – Jun 2025
+                                </p>
+                                <p class="edu-panel-desc">Processed 10,000+ records and built predictive machine
+                                    learning models. Achieved a highly accurate 93% success rate through optimized data
+                                    pipelines and advanced feature engineering techniques.</p>
+
+                                <div class="edu-coursework" style="margin-top: 15px; margin-bottom: 25px;">
+                                    <strong style="font-size: 0.9rem; color: var(--text-color); opacity: 0.8;"><i
+                                            class="fas fa-laptop-code"></i> Technologies Used:</strong>
+                                    <div class="project-tags" style="margin-top: 10px; gap: 8px;">
+                                        <span class="tag"
+                                            style="font-size: 0.75rem; padding: 4px 10px; background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.2);">Python</span>
+                                        <span class="tag"
+                                            style="font-size: 0.75rem; padding: 4px 10px; background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.2);">Machine
+                                            Learning</span>
+                                        <span class="tag"
+                                            style="font-size: 0.75rem; padding: 4px 10px; background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.2);">Pandas</span>
+                                    </div>
+                                </div>
+
+                                <div style="margin-top: 10px;">
+                                    <a href="#" class="btn btn-secondary"
+                                        style="padding: 8px 20px; font-size: 0.9rem; border-radius: 6px;"><i
+                                            class="fas fa-certificate"></i> View Certificate</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Data Analytics Panel -->
+                    <div class="edu-panel" id="exp-infosys">
+                        <div class="edu-panel-accent" style="--ep-color: var(--secondary-color);"></div>
+                        <div class="edu-panel-body">
+                            <div class="edu-panel-left">
+                                <div class="edu-panel-big-icon edu-icon-secondary"><i class="fas fa-chart-pie"></i>
+                                </div>
+                                <div class="edu-panel-meta">
+                                    <div class="edu-stat-box"><span class="edu-stat-val">2026</span><span
+                                            class="edu-stat-lbl">Year</span></div>
+                                    <div class="edu-stat-box"><span class="edu-stat-val">DA</span><span
+                                            class="edu-stat-lbl">Role</span></div>
+                                    <div class="edu-stat-box"><span class="edu-stat-val">Project</span><span
+                                            class="edu-stat-lbl">Based</span></div>
+                                </div>
+                            </div>
+                            <div class="edu-panel-right">
+                                <span class="edu-panel-type" style="color:var(--secondary-color);">Data Analytics
+                                    Internship</span>
+                                <h3 class="edu-panel-degree">Data Analytics Intern</h3>
+                                <p class="edu-panel-field"><i class="fas fa-globe"></i> Infosys Springboard
+                                    (ClimateScope)</p>
+                                <p class="edu-panel-institute"><i class="fas fa-calendar-alt"></i> 2026 – Present <span
+                                        class="tag"
+                                        style="margin-left: 10px; background: rgba(139, 92, 246, 0.2); color: var(--secondary-color); border: 1px solid var(--secondary-color); font-size: 0.7rem; padding: 2px 8px;">Ongoing</span>
+                                </p>
+                                <p class="edu-panel-desc">Currently developing ClimateScope, a comprehensive analytics
+                                    platform for environmental monitoring. Analyzing global weather patterns and
+                                    building predictive models to visualize extreme climate events.</p>
+
+                                <div class="edu-coursework" style="margin-top: 15px; margin-bottom: 25px;">
+                                    <strong style="font-size: 0.9rem; color: var(--text-color); opacity: 0.8;"><i
+                                            class="fas fa-laptop-code"></i> Core Focus:</strong>
+                                    <div class="project-tags" style="margin-top: 10px; gap: 8px;">
+                                        <span class="tag"
+                                            style="font-size: 0.75rem; padding: 4px 10px; background: rgba(139, 92, 246, 0.1); border: 1px solid rgba(139, 92, 246, 0.2);">Data
+                                            Analytics</span>
+                                        <span class="tag"
+                                            style="font-size: 0.75rem; padding: 4px 10px; background: rgba(139, 92, 246, 0.1); border: 1px solid rgba(139, 92, 246, 0.2);">Climate
+                                            Modeling</span>
+                                        <span class="tag"
+                                            style="font-size: 0.75rem; padding: 4px 10px; background: rgba(139, 92, 246, 0.1); border: 1px solid rgba(139, 92, 246, 0.2);">Visual
+                                            Insights</span>
+                                    </div>
+                                </div>
+
+                                <div style="margin-top: 10px; display: flex; align-items: center; gap: 10px;">
+                                    <span
+                                        style="font-size: 0.85rem; color: var(--secondary-color); font-weight: 500;"><i
+                                            class="fas fa-sync-alt fa-spin"></i> Internship in Progress</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <div class="container">
+            <h2 class="section-title reveal-in-up" data-aos="fade-up">Certifications</h2>
+            <p class="cert-subtitle" data-aos="fade-up" data-aos-delay="100">Industry-recognized credentials validating
+                my expertise</p>
+
+            <div class="cert-grid">
+
+                <!-- Cert 1 -->
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="100" style="--cert-color:#6366f1;">
+                    <div class="cert-date-badge"><i class="fas fa-calendar-alt"></i> 2024</div>
+                    <div class="cert-preview">
+                        <div class="cert-preview-corners"><span></span><span></span><span></span><span></span></div>
+                        <div class="cert-preview-watermark"></div>
+                        <div class="cert-preview-seal"><i class="fab fa-python"></i></div>
+                        <p class="cert-preview-label">Certificate of Completion</p>
+                        <p class="cert-preview-title-text">Python for Data Science</p>
+                        <div class="cert-preview-line"></div>
+                        <p class="cert-preview-issuer-text">IBM / Coursera</p>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Python for Data Science</h3>
+                        <p class="cert-issuer"><i class="fas fa-award"></i> IBM / Coursera</p>
+                        <p class="cert-desc">Data manipulation, visualization and analysis using the Python ecosystem.
+                        </p>
+                    </div>
+                    <div class="cert-shine"></div>
+                </div>
+
+                <!-- Cert 2 -->
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="200" style="--cert-color:#8b5cf6;">
+                    <div class="cert-date-badge"><i class="fas fa-calendar-alt"></i> 2024</div>
+                    <div class="cert-preview">
+                        <div class="cert-preview-corners"><span></span><span></span><span></span><span></span></div>
+                        <div class="cert-preview-watermark"></div>
+                        <div class="cert-preview-seal"><i class="fas fa-brain"></i></div>
+                        <p class="cert-preview-label">Certificate of Completion</p>
+                        <p class="cert-preview-title-text">Machine Learning Specialization</p>
+                        <div class="cert-preview-line"></div>
+                        <p class="cert-preview-issuer-text">DeepLearning.AI / Coursera</p>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Machine Learning Specialization</h3>
+                        <p class="cert-issuer"><i class="fas fa-award"></i> DeepLearning.AI / Coursera</p>
+                        <p class="cert-desc">Supervised &amp; unsupervised learning and ML best practices by Andrew Ng.
+                        </p>
+                    </div>
+                    <div class="cert-shine"></div>
+                </div>
+
+                <!-- Cert 3 -->
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="300" style="--cert-color:#ec4899;">
+                    <div class="cert-date-badge"><i class="fas fa-calendar-alt"></i> 2024</div>
+                    <div class="cert-preview">
+                        <div class="cert-preview-corners"><span></span><span></span><span></span><span></span></div>
+                        <div class="cert-preview-watermark"></div>
+                        <div class="cert-preview-seal"><i class="fas fa-chart-bar"></i></div>
+                        <p class="cert-preview-label">Certificate of Completion</p>
+                        <p class="cert-preview-title-text">Data Analytics &amp; Visualization</p>
+                        <div class="cert-preview-line"></div>
+                        <p class="cert-preview-issuer-text">Forage – Accenture</p>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Data Analytics &amp; Visualization</h3>
+                        <p class="cert-issuer"><i class="fas fa-award"></i> Forage – Accenture</p>
+                        <p class="cert-desc">Real-world analytics simulation covering insight generation &amp;
+                            storytelling.</p>
+                    </div>
+                    <div class="cert-shine"></div>
+                </div>
+
+                <!-- Cert 4 -->
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="400" style="--cert-color:#10b981;">
+                    <div class="cert-date-badge"><i class="fas fa-calendar-alt"></i> 2024</div>
+                    <div class="cert-preview">
+                        <div class="cert-preview-corners"><span></span><span></span><span></span><span></span></div>
+                        <div class="cert-preview-watermark"></div>
+                        <div class="cert-preview-seal"><i class="fas fa-database"></i></div>
+                        <p class="cert-preview-label">Certificate of Completion</p>
+                        <p class="cert-preview-title-text">SQL for Data Science</p>
+                        <div class="cert-preview-line"></div>
+                        <p class="cert-preview-issuer-text">UC Davis / Coursera</p>
+                    </div>
+                    <div class="cert-content">
+                        <h3>SQL for Data Science</h3>
+                        <p class="cert-issuer"><i class="fas fa-award"></i> UC Davis / Coursera</p>
+                        <p class="cert-desc">Advanced SQL queries, joins, subqueries and database design principles.</p>
+                    </div>
+                    <div class="cert-shine"></div>
+                </div>
+
+                <!-- Cert 5 -->
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="500" style="--cert-color:#f59e0b;">
+                    <div class="cert-date-badge"><i class="fas fa-calendar-alt"></i> 2024</div>
+                    <div class="cert-preview">
+                        <div class="cert-preview-corners"><span></span><span></span><span></span><span></span></div>
+                        <div class="cert-preview-watermark"></div>
+                        <div class="cert-preview-seal"><i class="fas fa-chart-pie"></i></div>
+                        <p class="cert-preview-label">Certificate of Completion</p>
+                        <p class="cert-preview-title-text">Power BI Desktop</p>
+                        <div class="cert-preview-line"></div>
+                        <p class="cert-preview-issuer-text">Microsoft Learn</p>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Power BI Desktop</h3>
+                        <p class="cert-issuer"><i class="fas fa-award"></i> Microsoft Learn</p>
+                        <p class="cert-desc">Dashboard creation, DAX formulas, data modeling &amp; interactive
+                            reporting.</p>
+                    </div>
+                    <div class="cert-shine"></div>
+                </div>
+
+                <!-- Cert 6 -->
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="600" style="--cert-color:#3b82f6;">
+                    <div class="cert-date-badge"><i class="fas fa-calendar-alt"></i> 2024</div>
+                    <div class="cert-preview">
+                        <div class="cert-preview-corners"><span></span><span></span><span></span><span></span></div>
+                        <div class="cert-preview-watermark"></div>
+                        <div class="cert-preview-seal"><i class="fab fa-git-alt"></i></div>
+                        <p class="cert-preview-label">Certificate of Completion</p>
+                        <p class="cert-preview-title-text">Git &amp; Version Control</p>
+                        <div class="cert-preview-line"></div>
+                        <p class="cert-preview-issuer-text">Atlassian / Coursera</p>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Git &amp; Version Control</h3>
+                        <p class="cert-issuer"><i class="fas fa-award"></i> Atlassian / Coursera</p>
+                        <p class="cert-desc">Branching, merging, conflict resolution and collaborative workflows.</p>
+                    </div>
+                    <div class="cert-shine"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+        <div class="container">
+            <h2 class="section-title reveal-in-up" data-aos="fade-up">Resume</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100"
+                style="text-align: center; margin-bottom: 40px; color: var(--text-color); opacity: 0.8;">
+                My professional experience and impact
+            </p>
+
+            <div class="resume-wrapper">
+                <!-- Main Description -->
+                <div class="resume-content" data-aos="fade-right">
+                    <div class="quote-card">
+                        <h3 class="quote-text"><i class="fas fa-quote-left quote-icon"></i> Commit to growth, embrace
+                            challenges, and let your work create the impact. <i
+                                class="fas fa-quote-right quote-icon"></i></h3>
+                        <p class="quote-subtext">A passionate developer and data analyst focused on building scalable
+                            software, solving real-world problems with data, and bridging the gap between analytics and
+                            engineering.</p>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="resume-actions" data-aos="zoom-in">
+                        <a href="resumee.pdf" download="Sitaram_Manepalli_Resume.pdf" class="btn btn-primary"><i
+                                class="fas fa-download"></i> Download Resume</a>
+                        <a href="resumee.pdf" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i> View
+                            Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title reveal-in-up" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your
+                        vision.</p>
+                    <div class="contact-details">
+                        <div class="contact-card magnetic-card" id="email-card">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-card-content">
+                                <h4>Email</h4>
+                                <div class="email-wrapper">
+                                    <p id="contact-email">Saisitaram49@gmail.com</p>
+                                    <button class="copy-btn" onclick="copyEmail()" title="Copy to clipboard">
+                                        <i class="fas fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-card magnetic-card" id="location-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-card-content">
+                                <h4>Location</h4>
+                                <p>Andhra Pradesh, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-connectivity">
+                        <p class="social-lbl">Connect Professionally</p>
+                        <div class="social-links-hub">
+                            <a href="https://www.linkedin.com/in/sitaram-manepalli-207602295/"
+                                class="social-hub-link linkedin" title="LinkedIn" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/12308155" class="social-hub-link github" title="GitHub" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" action="https://formspree.io/f/mrbojlwj" method="POST" id="comm-form">
+                        <div class="form-group-hub">
+                            <input type="text" id="name" name="name" required placeholder=" ">
+                            <label for="name">Your Name</label>
+                            <span class="input-glow"></span>
+                        </div>
+                        <div class="form-group-hub">
+                            <input type="email" id="email" name="email" required placeholder=" ">
+                            <label for="email">Your Email</label>
+                            <span class="input-glow"></span>
+                        </div>
+                        <div class="form-group-hub">
+                            <textarea id="message" name="message" required placeholder=" "></textarea>
+                            <label for="message">Your Message</label>
+                            <span class="input-glow"></span>
+                        </div>
+                        <button type="submit" class="submit-hub-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </button>
+                        <p class="trust-signal"><i class="fas fa-clock"></i> Average response time: &lt; 24 hours</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" data-aos="fade-up">
+        <div class="container">
+            <p>&copy; 2026 Sitaram Manepalli. All rights reserved.</p>
+            <p>Designed & Built with <i class="fas fa-heart"></i></p>
+        </div>
+    </footer>
+
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
